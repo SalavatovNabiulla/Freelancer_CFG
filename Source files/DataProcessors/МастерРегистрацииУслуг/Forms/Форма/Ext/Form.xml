@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<WindowOpeningMode>LockWholeInterface</WindowOpeningMode>
+	<HorizontalAlign>Center</HorizontalAlign>
+	<VerticalAlign>Center</VerticalAlign>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаНачальныйЭкран" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа начальный экран</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа начальный экран</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<HorizontalAlign>Center</HorizontalAlign>
+			<Behavior>Usual</Behavior>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаНачальныйЭкранРасширеннаяПодсказка" id="2"/>
+			<ChildItems>
+				<LabelDecoration name="ЗаголовокГруппыНачальныйЭкран" id="9">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заголовок группы начальный экран</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ЗаголовокГруппыНачальныйЭкранКонтекстноеМеню" id="10"/>
+					<ExtendedTooltip name="ЗаголовокГруппыНачальныйЭкранРасширеннаяПодсказка" id="11"/>
+				</LabelDecoration>
+				<LabelDecoration name="ПояснениеГруппыНачальныйЭкран" id="12">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пояснение группы начальный экран</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ПояснениеГруппыНачальныйЭкранКонтекстноеМеню" id="13"/>
+					<ExtendedTooltip name="ПояснениеГруппыНачальныйЭкранРасширеннаяПодсказка" id="14"/>
+				</LabelDecoration>
+				<LabelDecoration name="ДополнительнаяИнформацияГруппыНачальныйЭкран" id="15">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительная информация группы начальный экран</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ДополнительнаяИнформацияГруппыНачальныйЭкранКонтекстноеМеню" id="16"/>
+					<ExtendedTooltip name="ДополнительнаяИнформацияГруппыНачальныйЭкранРасширеннаяПодсказка" id="17"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаОсновныеСведения" id="3">
+			<Visible>false</Visible>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа основные сведения</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа основные сведения</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаОсновныеСведенияРасширеннаяПодсказка" id="4"/>
+			<ChildItems>
+				<LabelDecoration name="ЗаголовокГруппыОсновныеСведения" id="20">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заголовок группы основные сведения</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ЗаголовокГруппыОсновныеСведенияКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="ЗаголовокГруппыОсновныеСведенияРасширеннаяПодсказка" id="22"/>
+				</LabelDecoration>
+				<LabelDecoration name="ПояснениеГруппыОсновныеСведения" id="23">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пояснение группы основные сведения</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ПояснениеГруппыОсновныеСведенияКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="ПояснениеГруппыОсновныеСведенияРасширеннаяПодсказка" id="25"/>
+				</LabelDecoration>
+				<InputField name="НаименованиеУслуги" id="29">
+					<DataPath>НаименованиеУслуги</DataPath>
+					<ContextMenu name="НаименованиеУслугиКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="НаименованиеУслугиРасширеннаяПодсказка" id="31"/>
+				</InputField>
+				<LabelDecoration name="ДополнительнаяИнформацияГруппыОсновныеСведения" id="26">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительная информация группы основные сведения</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ДополнительнаяИнформацияГруппыОсновныеСведенияКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ДополнительнаяИнформацияГруппыОсновныеСведенияРасширеннаяПодсказка" id="28"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаУстановкаЦены" id="5">
+			<Visible>false</Visible>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа установка цены</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа установка цены</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаУстановкаЦеныРасширеннаяПодсказка" id="6"/>
+			<ChildItems>
+				<LabelDecoration name="ЗаголовокГруппыУстановкаЦены" id="32">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заголовок группы установка цены</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ЗаголовокГруппыУстановкаЦеныКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ЗаголовокГруппыУстановкаЦеныРасширеннаяПодсказка" id="34"/>
+				</LabelDecoration>
+				<LabelDecoration name="ПояснениеГруппыУстановкаЦены" id="35">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пояснение группы установка цены</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ПояснениеГруппыУстановкаЦеныКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="ПояснениеГруппыУстановкаЦеныРасширеннаяПодсказка" id="37"/>
+				</LabelDecoration>
+				<InputField name="СтоимостьУслуги" id="41">
+					<DataPath>СтоимостьУслуги</DataPath>
+					<ContextMenu name="СтоимостьУслугиКонтекстноеМеню" id="42"/>
+					<ExtendedTooltip name="СтоимостьУслугиРасширеннаяПодсказка" id="43"/>
+				</InputField>
+				<InputField name="ЕдиницаИзмеренияУслуги" id="44">
+					<DataPath>ЕдиницаИзмеренияУслуги</DataPath>
+					<ContextMenu name="ЕдиницаИзмеренияУслугиКонтекстноеМеню" id="45"/>
+					<ExtendedTooltip name="ЕдиницаИзмеренияУслугиРасширеннаяПодсказка" id="46"/>
+				</InputField>
+				<LabelDecoration name="ДополнительнаяИнформацияГруппыУстановкаЦены" id="38">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительная информация группы установка цены</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ДополнительнаяИнформацияГруппыУстановкаЦеныКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="ДополнительнаяИнформацияГруппыУстановкаЦеныРасширеннаяПодсказка" id="40"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаЗавершение" id="7">
+			<Visible>false</Visible>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа завершение</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа завершение</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаЗавершениеРасширеннаяПодсказка" id="8"/>
+			<ChildItems>
+				<LabelDecoration name="ЗаголовокГруппыЗавершение" id="47">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заголовок группы завершение</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ЗаголовокГруппыЗавершениеКонтекстноеМеню" id="48"/>
+					<ExtendedTooltip name="ЗаголовокГруппыЗавершениеРасширеннаяПодсказка" id="49"/>
+				</LabelDecoration>
+				<LabelDecoration name="ПояснениеГруппыЗавершение" id="50">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пояснение группы завершение</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ПояснениеГруппыЗавершениеКонтекстноеМеню" id="51"/>
+					<ExtendedTooltip name="ПояснениеГруппыЗавершениеРасширеннаяПодсказка" id="52"/>
+				</LabelDecoration>
+				<LabelDecoration name="ДополнительнаяИнформацияГруппыЗавершение" id="53">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительная информация группы завершение</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ДополнительнаяИнформацияГруппыЗавершениеКонтекстноеМеню" id="54"/>
+					<ExtendedTooltip name="ДополнительнаяИнформацияГруппыЗавершениеРасширеннаяПодсказка" id="55"/>
+				</LabelDecoration>
+				<LabelField name="Услуга" id="56">
+					<DataPath>Услуга</DataPath>
+					<Hiperlink>true</Hiperlink>
+					<ContextMenu name="УслугаКонтекстноеМеню" id="57"/>
+					<ExtendedTooltip name="УслугаРасширеннаяПодсказка" id="58"/>
+				</LabelField>
+			</ChildItems>
+		</UsualGroup>
+		<Button name="Далее" id="18">
+			<Type>UsualButton</Type>
+			<DefaultButton>true</DefaultButton>
+			<CommandName>Form.Command.Далее</CommandName>
+			<ExtendedTooltip name="ДалееРасширеннаяПодсказка" id="19"/>
+		</Button>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.МастерРегистрацииУслуг</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="НаименованиеУслуги" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Наименование услуги</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ЕдиницаИзмеренияУслуги" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Единица измерения услуги</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.ЕдиницыИзмеренияУслуг</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="СтоимостьУслуги" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Стоимость услуги</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>3</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Услуга" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Услуга</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Услуги</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Далее" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Продолжить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Далее</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Далее</Action>
+		</Command>
+	</Commands>
+</Form>

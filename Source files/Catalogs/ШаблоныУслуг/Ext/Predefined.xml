@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.13">
+	<Item id="de888c0e-f2dd-419d-a140-b71fa731e109">
+		<Name>IT</Name>
+		<Code>000000001</Code>
+		<Description>IT</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="e64405e5-0099-4bc9-96c6-9b05560a976d">
+				<Name>РазработкаСайта</Name>
+				<Code>000000002</Code>
+				<Description>Разработка сайта</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>

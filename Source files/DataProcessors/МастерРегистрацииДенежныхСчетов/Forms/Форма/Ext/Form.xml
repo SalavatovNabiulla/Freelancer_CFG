@@ -1,0 +1,601 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<WindowOpeningMode>LockWholeInterface</WindowOpeningMode>
+	<HorizontalAlign>Center</HorizontalAlign>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаНачальныйЭкран" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа начальный экран</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа начальный экран</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаНачальныйЭкранРасширеннаяПодсказка" id="2"/>
+			<ChildItems>
+				<LabelDecoration name="ЗаголовокГруппыНачальныйЭкран" id="3">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заголовок группы начальный экран</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ЗаголовокГруппыНачальныйЭкранКонтекстноеМеню" id="4"/>
+					<ExtendedTooltip name="ЗаголовокГруппыНачальныйЭкранРасширеннаяПодсказка" id="5"/>
+				</LabelDecoration>
+				<LabelDecoration name="ПояснениеГруппыНачальныйЭкран" id="6">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пояснение группы начальный экран</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ПояснениеГруппыНачальныйЭкранКонтекстноеМеню" id="7"/>
+					<ExtendedTooltip name="ПояснениеГруппыНачальныйЭкранРасширеннаяПодсказка" id="8"/>
+				</LabelDecoration>
+				<LabelDecoration name="ДополнительнаяИнформацияГруппыНачальныйЭкран" id="9">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительная информация группы начальный экран</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ДополнительнаяИнформацияГруппыНачальныйЭкранКонтекстноеМеню" id="10"/>
+					<ExtendedTooltip name="ДополнительнаяИнформацияГруппыНачальныйЭкранРасширеннаяПодсказка" id="11"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаОсновнаяИнформация" id="14">
+			<Visible>false</Visible>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа основная информация</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа основная информация</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаОсновнаяИнформацияРасширеннаяПодсказка" id="15"/>
+			<ChildItems>
+				<LabelDecoration name="ЗаголовокГруппыОсновнаяИнформация" id="16">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заголовок группы основная информация</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ЗаголовокГруппыОсновнаяИнформацияКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="ЗаголовокГруппыОсновнаяИнформацияРасширеннаяПодсказка" id="18"/>
+				</LabelDecoration>
+				<LabelDecoration name="ПояснениеГруппыОсновнаяИнформация" id="19">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пояснение группы основная информация</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ПояснениеГруппыОсновнаяИнформацияКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="ПояснениеГруппыОсновнаяИнформацияРасширеннаяПодсказка" id="21"/>
+				</LabelDecoration>
+				<InputField name="НаименованиеДенежногоСчёта" id="25">
+					<DataPath>НаименованиеДенежногоСчёта</DataPath>
+					<ContextMenu name="НаименованиеДенежногоСчётаКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="НаименованиеДенежногоСчётаРасширеннаяПодсказка" id="27"/>
+				</InputField>
+				<UsualGroup name="ГруппаТипыДенежныхСчетов" id="28">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа типы денежных счетов</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа типы денежных счетов</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<Behavior>Usual</Behavior>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаТипыДенежныхСчетовРасширеннаяПодсказка" id="29"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаФизическийСчёт" id="30">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа физический счёт</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа физический счёт</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаФизическийСчётРасширеннаяПодсказка" id="31"/>
+							<ChildItems>
+								<LabelDecoration name="ЗаголовокГруппыФизическийСчёт" id="36">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Заголовок группы физический счёт</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ЗаголовокГруппыФизическийСчётКонтекстноеМеню" id="37"/>
+									<ExtendedTooltip name="ЗаголовокГруппыФизическийСчётРасширеннаяПодсказка" id="38"/>
+								</LabelDecoration>
+								<LabelDecoration name="ПояснениеГруппыФизическийСчёт" id="39">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Пояснение группы физический счёт</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ПояснениеГруппыФизическийСчётКонтекстноеМеню" id="40"/>
+									<ExtendedTooltip name="ПояснениеГруппыФизическийСчётРасширеннаяПодсказка" id="41"/>
+								</LabelDecoration>
+								<LabelDecoration name="ДополнительнаяИнформацияГруппыФизическийСчёт" id="42">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Дополнительная информация группы физический счёт</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ДополнительнаяИнформацияГруппыФизическийСчётКонтекстноеМеню" id="43"/>
+									<ExtendedTooltip name="ДополнительнаяИнформацияГруппыФизическийСчётРасширеннаяПодсказка" id="44"/>
+								</LabelDecoration>
+								<CheckBoxField name="ФизическийСчёт" id="45">
+									<DataPath>ФизическийСчёт</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ФизическийСчётКонтекстноеМеню" id="46"/>
+									<ExtendedTooltip name="ФизическийСчётРасширеннаяПодсказка" id="47"/>
+								</CheckBoxField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаБанковскийСчёт" id="32">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа банковский счёт</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа банковский счёт</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаБанковскийСчётРасширеннаяПодсказка" id="33"/>
+							<ChildItems>
+								<LabelDecoration name="ЗаголовокГруппыБанковскийСчёт" id="48">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Заголовок группы банковский счёт</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ЗаголовокГруппыБанковскийСчётКонтекстноеМеню" id="49"/>
+									<ExtendedTooltip name="ЗаголовокГруппыБанковскийСчётРасширеннаяПодсказка" id="50"/>
+								</LabelDecoration>
+								<LabelDecoration name="ПояснениеГруппыБанковскийСчёт" id="51">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Пояснение группы банковский счёт</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ПояснениеГруппыБанковскийСчётКонтекстноеМеню" id="52"/>
+									<ExtendedTooltip name="ПояснениеГруппыБанковскийСчётРасширеннаяПодсказка" id="53"/>
+								</LabelDecoration>
+								<LabelDecoration name="ДополнительнаяИнформацияГруппыБанковскийСчёт" id="54">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Дополнительная информация группы банковский счёт</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ДополнительнаяИнформацияГруппыБанковскийСчётКонтекстноеМеню" id="55"/>
+									<ExtendedTooltip name="ДополнительнаяИнформацияГруппыБанковскийСчётРасширеннаяПодсказка" id="56"/>
+								</LabelDecoration>
+								<CheckBoxField name="БанковскийСчёт" id="57">
+									<DataPath>БанковскийСчёт</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="БанковскийСчётКонтекстноеМеню" id="58"/>
+									<ExtendedTooltip name="БанковскийСчётРасширеннаяПодсказка" id="59"/>
+								</CheckBoxField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаЭлектронныйКошелёк" id="34">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа электронный кошелёк</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа электронный кошелёк</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаЭлектронныйКошелёкРасширеннаяПодсказка" id="35"/>
+							<ChildItems>
+								<LabelDecoration name="ЗаголовокГруппыЭлектронныйКошелёк" id="60">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Заголовок группы электронный кошелёк</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ЗаголовокГруппыЭлектронныйКошелёкКонтекстноеМеню" id="61"/>
+									<ExtendedTooltip name="ЗаголовокГруппыЭлектронныйКошелёкРасширеннаяПодсказка" id="62"/>
+								</LabelDecoration>
+								<LabelDecoration name="ПояснениеГруппыЭлектронныйКошелёк" id="63">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Пояснение группы электронный кошелёк</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ПояснениеГруппыЭлектронныйКошелёкКонтекстноеМеню" id="64"/>
+									<ExtendedTooltip name="ПояснениеГруппыЭлектронныйКошелёкРасширеннаяПодсказка" id="65"/>
+								</LabelDecoration>
+								<LabelDecoration name="ДополнительнаяИнформацияГруппыЭлектронныйКошелёк" id="66">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Дополнительная информация группы электронный кошелёк</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ДополнительнаяИнформацияГруппыЭлектронныйКошелёкКонтекстноеМеню" id="67"/>
+									<ExtendedTooltip name="ДополнительнаяИнформацияГруппыЭлектронныйКошелёкРасширеннаяПодсказка" id="68"/>
+								</LabelDecoration>
+								<CheckBoxField name="ЭлектронныйКошелёк" id="69">
+									<DataPath>ЭлектронныйКошелёк</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ЭлектронныйКошелёкКонтекстноеМеню" id="70"/>
+									<ExtendedTooltip name="ЭлектронныйКошелёкРасширеннаяПодсказка" id="71"/>
+								</CheckBoxField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+				<LabelDecoration name="ДополнительнаяИнформацияГруппыОсновнаяИнформация" id="22">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительная информация группы основная информация</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ДополнительнаяИнформацияГруппыОсновнаяИнформацияКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="ДополнительнаяИнформацияГруппыОсновнаяИнформацияРасширеннаяПодсказка" id="24"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаРеквизитыДенежногоСчёта" id="72">
+			<Visible>false</Visible>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа реквизиты денежного счёта</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа реквизиты денежного счёта</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаРеквизитыДенежногоСчётаРасширеннаяПодсказка" id="73"/>
+			<ChildItems>
+				<LabelDecoration name="ЗаголовокГруппыРеквизитыДенежногоСчёта" id="74">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заголовок группы реквизиты денежного счёта</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ЗаголовокГруппыРеквизитыДенежногоСчётаКонтекстноеМеню" id="75"/>
+					<ExtendedTooltip name="ЗаголовокГруппыРеквизитыДенежногоСчётаРасширеннаяПодсказка" id="76"/>
+				</LabelDecoration>
+				<LabelDecoration name="ПояснениеГруппыРеквизитыДенежногоСчёта" id="77">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пояснение группы реквизиты денежного счёта</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ПояснениеГруппыРеквизитыДенежногоСчётаКонтекстноеМеню" id="78"/>
+					<ExtendedTooltip name="ПояснениеГруппыРеквизитыДенежногоСчётаРасширеннаяПодсказка" id="79"/>
+				</LabelDecoration>
+				<Table name="РеквизитыДенежногоСчета" id="83">
+					<Representation>List</Representation>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>РеквизитыДенежногоСчета</DataPath>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="РеквизитыДенежногоСчетаКонтекстноеМеню" id="84">
+						<Autofill>false</Autofill>
+					</ContextMenu>
+					<AutoCommandBar name="РеквизитыДенежногоСчетаКоманднаяПанель" id="85">
+						<Autofill>false</Autofill>
+					</AutoCommandBar>
+					<ExtendedTooltip name="РеквизитыДенежногоСчетаРасширеннаяПодсказка" id="86"/>
+					<SearchStringAddition name="РеквизитыДенежногоСчетаСтрокаПоиска" id="87">
+						<AdditionSource>
+							<Item>РеквизитыДенежногоСчета</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="РеквизитыДенежногоСчетаСтрокаПоискаКонтекстноеМеню" id="88"/>
+						<ExtendedTooltip name="РеквизитыДенежногоСчетаСтрокаПоискаРасширеннаяПодсказка" id="89"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="РеквизитыДенежногоСчетаСостояниеПросмотра" id="90">
+						<AdditionSource>
+							<Item>РеквизитыДенежногоСчета</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="РеквизитыДенежногоСчетаСостояниеПросмотраКонтекстноеМеню" id="91"/>
+						<ExtendedTooltip name="РеквизитыДенежногоСчетаСостояниеПросмотраРасширеннаяПодсказка" id="92"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="РеквизитыДенежногоСчетаУправлениеПоиском" id="93">
+						<AdditionSource>
+							<Item>РеквизитыДенежногоСчета</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="РеквизитыДенежногоСчетаУправлениеПоискомКонтекстноеМеню" id="94"/>
+						<ExtendedTooltip name="РеквизитыДенежногоСчетаУправлениеПоискомРасширеннаяПодсказка" id="95"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<InputField name="РеквизитыДенежногоСчетаВидИнформацииДенежногоСчета" id="96">
+							<DataPath>РеквизитыДенежногоСчета.ВидИнформацииДенежногоСчета</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="РеквизитыДенежногоСчетаВидИнформацииДенежногоСчетаКонтекстноеМеню" id="97"/>
+							<ExtendedTooltip name="РеквизитыДенежногоСчетаВидИнформацииДенежногоСчетаРасширеннаяПодсказка" id="98"/>
+						</InputField>
+						<InputField name="РеквизитыДенежногоСчетаЗначение" id="99">
+							<DataPath>РеквизитыДенежногоСчета.Значение</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="РеквизитыДенежногоСчетаЗначениеКонтекстноеМеню" id="100"/>
+							<ExtendedTooltip name="РеквизитыДенежногоСчетаЗначениеРасширеннаяПодсказка" id="101"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+				<LabelDecoration name="ДополнительнаяИнформацияГруппыРеквизитыДенежногоСчёта" id="80">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительная информация группы реквизиты денежного счёта</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ДополнительнаяИнформацияГруппыРеквизитыДенежногоСчётаКонтекстноеМеню" id="81"/>
+					<ExtendedTooltip name="ДополнительнаяИнформацияГруппыРеквизитыДенежногоСчётаРасширеннаяПодсказка" id="82"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаЗавершение" id="102">
+			<Visible>false</Visible>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа завершение</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа завершение</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаЗавершениеРасширеннаяПодсказка" id="103"/>
+			<ChildItems>
+				<LabelDecoration name="ЗаголовокГруппыЗавершение" id="104">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заголовок группы завершение</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ЗаголовокГруппыЗавершениеКонтекстноеМеню" id="105"/>
+					<ExtendedTooltip name="ЗаголовокГруппыЗавершениеРасширеннаяПодсказка" id="106"/>
+				</LabelDecoration>
+				<LabelDecoration name="ПояснениеГруппыЗавершение" id="107">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пояснение группы завершение</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ПояснениеГруппыЗавершениеКонтекстноеМеню" id="108"/>
+					<ExtendedTooltip name="ПояснениеГруппыЗавершениеРасширеннаяПодсказка" id="109"/>
+				</LabelDecoration>
+				<LabelField name="ДенежныйСчёт" id="113">
+					<DataPath>ДенежныйСчёт</DataPath>
+					<Hiperlink>true</Hiperlink>
+					<ContextMenu name="ДенежныйСчётКонтекстноеМеню" id="114"/>
+					<ExtendedTooltip name="ДенежныйСчётРасширеннаяПодсказка" id="115"/>
+				</LabelField>
+				<LabelDecoration name="ДополнительнаяИнформацияГруппыЗавершение" id="110">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительная информация группы завершение</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ДополнительнаяИнформацияГруппыЗавершениеКонтекстноеМеню" id="111"/>
+					<ExtendedTooltip name="ДополнительнаяИнформацияГруппыЗавершениеРасширеннаяПодсказка" id="112"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<Button name="Далее" id="12">
+			<Type>UsualButton</Type>
+			<DefaultButton>true</DefaultButton>
+			<CommandName>Form.Command.Далее</CommandName>
+			<ExtendedTooltip name="ДалееРасширеннаяПодсказка" id="13"/>
+		</Button>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.МастерРегистрацииДенежныхСчетов</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="НаименованиеДенежногоСчёта" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Наименование денежного счёта</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ФизическийСчёт" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Физический счёт</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="БанковскийСчёт" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Банковский счёт</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ЭлектронныйКошелёк" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Электронный кошелёк</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="РеквизитыДенежногоСчета" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Реквизиты денежного счета</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="ВидИнформацииДенежногоСчета" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вид информации денежного счета</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыИнформацииДенежныхСчетов</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Значение" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Значение</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ДенежныйСчёт" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Денежный счёт</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.ДенежныеСчета</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Далее" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Далее</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Далее</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Далее</Action>
+		</Command>
+	</Commands>
+</Form>

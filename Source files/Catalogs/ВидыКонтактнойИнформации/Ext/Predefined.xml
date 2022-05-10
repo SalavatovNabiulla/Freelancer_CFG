@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.13">
+	<Item id="530fd8d7-c681-4daf-9aff-a79d7012361a">
+		<Name>Facebook</Name>
+		<Code>000000009</Code>
+		<Description>Facebook</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1ac7b05b-7f1b-4a0e-b838-df8dad0540d2">
+		<Name>Instagram</Name>
+		<Code>000000006</Code>
+		<Description>Instagram</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d12e603c-39f6-468d-ba24-7a7c50bf7d04">
+		<Name>Skype</Name>
+		<Code>000000011</Code>
+		<Description>Skype</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="04de0090-0d20-43f4-9287-3b438315488d">
+		<Name>Telegram</Name>
+		<Code>000000008</Code>
+		<Description>Telegram</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e0cde3a4-a1c6-445b-8390-9bd3351e4aaa">
+		<Name>Viber</Name>
+		<Code>000000005</Code>
+		<Description>Viber</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3f364a26-db24-42be-9e3f-e2f4932110a8">
+		<Name>VK</Name>
+		<Code>000000010</Code>
+		<Description>VK</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2c4a0b90-5437-4dd5-a10a-c1cb50fc025f">
+		<Name>WhatsApp</Name>
+		<Code>000000007</Code>
+		<Description>Whats app</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b660b9ad-c533-44a4-9489-9735773dcb6a">
+		<Name>АдресМестаПроживания</Name>
+		<Code>000000003</Code>
+		<Description>Адрес места проживания</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="96e66c9c-0835-457d-85dd-effe9d379a02">
+		<Name>НомерТелефона</Name>
+		<Code>000000001</Code>
+		<Description>Номер телефона</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6452564b-d635-4380-b031-38672745bc4d">
+		<Name>Сайт</Name>
+		<Code>000000004</Code>
+		<Description>Сайт</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a17ae929-12e0-4864-b70b-595b80917fd3">
+		<Name>ЭлектроннаяПочта</Name>
+		<Code>000000002</Code>
+		<Description>Электронная почта</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

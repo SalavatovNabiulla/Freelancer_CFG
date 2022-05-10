@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.13">
+	<Item id="8d72d57a-e265-4bcc-934c-e7a054bb4a03">
+		<Name>КонтактнаяИнформация</Name>
+		<Code>000000009</Code>
+		<Description>Контактная информация</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="2bdfa5c6-1f80-43df-822a-b2a5dcd76ac6">
+				<Name>НомерТелефона</Name>
+				<Code>000000010</Code>
+				<Description>Номер телефона</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="f7446438-2d39-4408-9024-d7a96de49e5a">
+				<Name>ЭлектроннаяПочта</Name>
+				<Code>000000011</Code>
+				<Description>Электронная почта</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="3918ce4a-3f7f-4bcc-9619-17cbaf91e739">
+		<Name>ПаспортныеДанные</Name>
+		<Code>000000001</Code>
+		<Description>Паспортные данные</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="cde7fef3-0cb7-4f20-9718-09883b543f94">
+				<Name>Имя</Name>
+				<Code>000000003</Code>
+				<Description>Имя</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="f7aa32b5-65b8-446f-9a63-b4909be66205">
+				<Name>Отчество</Name>
+				<Code>000000004</Code>
+				<Description>Отчество</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="5a69ff69-2f94-4f18-8e96-8bc4c436bf3b">
+				<Name>Фамилия</Name>
+				<Code>000000002</Code>
+				<Description>Фамилия</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="9efa0c6b-6e03-44d3-977f-b8c1465e5fa9">
+		<Name>ЮридическаяИнформация</Name>
+		<Code>000000007</Code>
+		<Description>Юридическая информаци</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="d8801afd-dac5-48f4-bf37-aca950e0bd22">
+				<Name>ИНН</Name>
+				<Code>000000008</Code>
+				<Description>ИНН</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.13">
+	<Item id="bca9f4bf-ea4b-450b-9584-10c066cae8d1">
+		<Name>БанковскийСчёт</Name>
+		<Code>000000003</Code>
+		<Description>Банковский счёт</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="28955d42-23f6-49d5-a98b-383843958ad1">
+				<Name>НаименованиеБанка</Name>
+				<Code>000000005</Code>
+				<Description>Наименование банка</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="3e5da32a-634b-4a61-9e97-412cd2b5d5bd">
+				<Name>НомерКарты</Name>
+				<Code>000000006</Code>
+				<Description>Номер счёта</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="e687afd3-7637-4983-be8d-95d3ce6c8655">
+		<Name>ФизическийСчёт</Name>
+		<Code>000000001</Code>
+		<Description>Физический</Description>
+		<IsFolder>true</IsFolder>
+	</Item>
+	<Item id="b5f1cd7d-7167-40f9-b3fe-434d89d15c29">
+		<Name>ЭлектронныйКошелёк</Name>
+		<Code>000000004</Code>
+		<Description>Электронный кошелёк</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="9f0fefa7-c706-4bda-9fa3-7b145e61a1fc">
+				<Name>НаименованиеСервиса</Name>
+				<Code>000000007</Code>
+				<Description>Наименование сервиса</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="a7cdc947-9b19-4f41-ab8d-fee3b9790b30">
+				<Name>НомерСчёта</Name>
+				<Code>000000008</Code>
+				<Description>Номер счёта</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>
